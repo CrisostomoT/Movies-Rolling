@@ -1,0 +1,16 @@
+body {
+    background-color: black !important;
+}
+
+.breadcrumb {
+    background-color: rgb(165, 3, 3) !important;
+}
+
+a {
+    color: gold !important;
+}
+
+.card {
+    background-color: gold !important;
+    color: rgb(165, 3, 3) !important;
+}
