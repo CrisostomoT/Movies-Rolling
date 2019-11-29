@@ -2,6 +2,11 @@ body {
     background-color: black !important;
 }
 
+.cont1 {
+    background-image: url(https://www.xtrafondos.com/wallpapers/iron-man-endgame-2991.jpg) !important;
+    object-fit: cover !important;
+}
+
 .breadcrumb {
     background-color: rgb(165, 3, 3) !important;
 }
@@ -13,4 +18,12 @@ a {
 .card {
     background-color: gold !important;
     color: rgb(165, 3, 3) !important;
+}
+
+.nav1 {
+    background-color: rgb(3, 6, 165) !important;
+}
+
+.a1 {
+    color: silver !important;
 }
