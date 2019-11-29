@@ -1,0 +1,12 @@
+main {
+    background: black;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+.card {
+    margin: 15px;
+}
