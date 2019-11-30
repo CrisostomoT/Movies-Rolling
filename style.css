@@ -2,28 +2,29 @@ body {
     background-color: black !important;
 }
 
-.cont1 {
-    background-image: url(https://www.xtrafondos.com/wallpapers/iron-man-endgame-2991.jpg) !important;
-    object-fit: cover !important;
-}
-
 .breadcrumb {
-    background-color: rgb(165, 3, 3) !important;
+    background-color: #dc3545 !important;
 }
 
 a {
-    color: gold !important;
+    color: rgb(31, 31, 31) !important;
 }
 
 .card {
-    background-color: gold !important;
-    color: rgb(165, 3, 3) !important;
+    background-color: rgb(31, 31, 31) !important;
+    color: #dc3545 !important;
 }
 
-.nav1 {
-    background-color: rgb(3, 6, 165) !important;
+.IM {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: red;
 }
 
-.a1 {
-    color: silver !important;
+.CA {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: blue;
 }
