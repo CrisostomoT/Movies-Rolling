@@ -1,0 +1,30 @@
+body {
+    background-color: black !important;
+}
+
+.breadcrumb {
+    background-color: #dc3545 !important;
+}
+
+a {
+    color: rgb(31, 31, 31) !important;
+}
+
+.card {
+    background-color: rgb(31, 31, 31) !important;
+    color: #dc3545 !important;
+}
+
+.IM {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: red;
+}
+
+.CA {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: blue;
+}
