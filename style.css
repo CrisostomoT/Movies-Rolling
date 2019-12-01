@@ -1,4 +1,6 @@
 body {
+    margin: 0px !important;
+    padding: 0px !important;
     background-color: black !important;
 }
 
@@ -11,8 +13,19 @@ a {
 }
 
 .card {
-    background-color: rgb(31, 31, 31) !important;
+    margin: 15px;
+    background-color: rgb(53, 53, 53) !important;
     color: #dc3545 !important;
+    box-shadow: 5px 5px 3px rgb(94, 94, 94);
+}
+
+.gradient-IM {
+    margin: auto;
+    padding: 0;
+    width: 350px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(90deg, rgba(208, 170, 11, 1) 35%, rgba(184, 0, 0, 1) 100%);
+    border-image-slice: 1;
 }
 
 .IM {
@@ -22,9 +35,46 @@ a {
     color: red;
 }
 
+.IronMan {
+    color: gold;
+}
+
+.gradient-CA {
+    margin: auto;
+    padding: 0;
+    width: 350px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(90deg, rgba(192, 192, 195, 1) 35%, rgba(0, 16, 184, 1) 100%);
+    border-image-slice: 1;
+}
+
 .CA {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 80px;
     color: blue;
+}
+
+.CaptainAmerica {
+    color: silver;
+}
+
+.gradient-TH {
+    margin: auto;
+    padding: 0;
+    width: 350px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(90deg, rgba(195, 192, 192, 1) 35%, rgba(184, 0, 0, 1) 100%);
+    border-image-slice: 1;
+}
+
+.TH {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: silver;
+}
+
+.Thor {
+    color: rgba(184, 0, 0, 1);
 }
