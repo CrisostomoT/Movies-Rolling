@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="InicioStyle.css">
+    <!-- Link BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Inicio</title>
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div class="contenedor_carga" id="contenedor_carga">
+        <div id="carga">
+            <img class="img-fluid guante" height="250" width="250" src="/inicio/resources/container/loading3.gif"
+                alt="">
+        </div>
+        <div class="loading-animation spinner-border text-danger" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <video autoplay muted loop id="intro-marvel">
+        <source src="resources/intro-marvel.mp4" type="video/mp4">
+    </video>
+
+    <div class="container welcome-block">
+        <section class="row justify-content-center">
+            <div class=" welcome-msg">
+                <h1>Bienvenido!</h1>
+            </div>
+            <div class="row justify-content-center">
+                <p class="col-9 col-md-6 description-msg">Esta pagina es un homenaje a la que nosotros consideramos
+                    que
+                    es una de las
+                    mejores
+                    franquicias de
+                    peliculas de
+                    superheroes, el Universo Marvel.</p>
+            </div>
+            <div class="row panel-funcional">
+                <!-- Input -->
+                <div class="col entrada-nombre-dad input-group input-group-lg">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-lg">Nombre</span>
+                    </div>
+                    <input type="text" class="entrada-nombre-son form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-lg">
+                </div>
+                <!-- Button -->
+                <div class="col enter-btn">
+                    <a href="../pelis.html">
+                        <button type="button" class="btn btn-danger btn-lg">Ingresar</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <nav class="navbar fixed-bottom navbar-dark bg-dark">
+            <span class="navbar-brand mb-0 h1">JGR Team</span>
+        </nav>
+    </footer>
+
+    <!-- Scripts JS -->
+    <script>
+        var loadingScreen = document.getElementById('contenedor_carga');
+        setTimeout(function () {
+            loadingScreen.style.visibility = "hidden";
+            loadingScreen.style.opacity = '0';
+        }, 1000);
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

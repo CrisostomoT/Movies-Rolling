@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Cap America</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+    integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link href="captain-america.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+
+    <!-- Loading Screen -->
+    <div class="contenedor_carga" id="contenedor_carga">
+      <div id="carga">
+        <img class="img-fluid guante" height="250" width="250" src="/inicio/resources/container/loading2.gif" alt="">
+      </div>
+    </div>
+
+    <!-- NavBar -->
+    <nav class="navegador navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand mr-5" href="#"><img src="/Imagenes/logomarvel.jpg" class="rounded" width="100"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item p-2">
+            <a href="/inicio/Inicio.html">
+              <button type="button" class="btn btn-danger btn-sm ml-3" href="">HOME</button>
+            </a>
+          </li>
+          <li class="nav-item p-2">
+            <a href="../pelis.html">
+              <button type="button" class="btn btn-danger btn-sm ml-3" href="">MOVIES</button>
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto p-2">
+          <li class="nav-item">
+            <button type="button" class="btn btn-secondary btn-sm ml-1 d-flex-md align-items-md-center" href="#">About
+              us
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Logo Marvel Dropdown -->
+  <li class="row logo-avengers nav-item dropup ml-5 ">
+    <a href="#" class="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+      aria-expanded="false">
+      <img src="/Imagenes/icono.jfif" class="logo-a rounded-circle" width="70" height="70">
+    </a>
+    <div class="logo-a-contenido dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="#">
+        <p class="text-primary font-weight-bold">Cap America</p>
+      </a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="iron-man.html">
+        <p class="text-danger font-weight-bold">Iron Man</p>
+      </a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">
+        <p class="text-warning font-weight-bold">Thor</p>
+      </a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">
+        <p class="text-success font-weight-bold">Hulk</p>
+      </a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">
+        <p class="text-white font-weight-bold">Black Widow</p>
+      </a>
+    </div>
+
+  </li>
+
+  <main role="main">
+
+    <!-- Carrusel -->
+    <div id="carouselExampleCaptions" class="carrusel carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/Imagenes/capiCarru1.jpg" class="d-none d-block w-100" alt="...">
+          <div class="rounded carrusel-txt carousel-caption  d-md-block">
+            <h3>HE WAS ALMOST CALLED "SUPER AMERICAN".</h3>
+            <h5>When Simon drew the original sketch of the character, he wrote "Super American" beneath it. He quickly
+              realized it wouldn’t work because there were already too many "Super" characters in publication, so the
+              name "Captain America" was chosen instead.</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/Imagenes/capiCarru2.jpg" class="d-none d-block w-100" alt="...">
+          <div class="rounded carrusel-txt carousel-caption d-md-block">
+            <h3>HIS FIRST FILM APPEARANCE WAS A 1944 SERIAL.</h3>
+            <h5>Not only did the Serum give him peak human strength, speed, stamina, and reflexes, but also made him
+              extremely agile (more so than any Olympic gold medalist).</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/Imagenes/capiCarru3.jpg" class="d-none d-block w-100" alt="...">
+          <div class="rounded carrusel-txt carousel-caption d-md-block">
+            <h3>HE WAS NOT AN ORIGINAL MEMBER OF THE AVENGERS.</h3>
+            <h5>Despite the way many of the adaptations portray the story, the original Avengers lineup didn’t include
+              Cap. The team actually found him buried in ice in the fourth issue of The Avengers comics in 1964. </h5>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="container-fluid marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <!-- Descripcion Personal -->
+      <div class="row descripcion">
+        <div class="col-lg-4">
+          <img class="descripcionBlock rounded-circle" src="/Imagenes/chrisEvans.jpg" height="140" width="140" alt="">
+          <h2>Chris Evans</h2>
+          <p>Evans joined the MCU with Captain America: The First Avenger in 2011. It was a relatively inauspicious
+            debut, grossing $176 million here, which would be loose change by today's Marvel standards. This was when
+            Marvel was still finding its feet before Disney bought the company.</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="descripcionBlock rounded-circle" src="/Imagenes/joeSimon.jpg" height="140" width="140" alt="">
+          <h2>Jack Kirby</h2>
+          <p>Simon and Kirby created the patriotic superhero Captain America in late 1940. Simon, who became the
+            company's editor, with Kirby as art director, said he negotiated with Goodman to give the duo 25 percent of
+            the profits from the feature. The first issue of Captain America Comics, released in early 1941,
+            sold out in days, and the second issue's print run was set at over a million copies.</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="descripcionBlock rounded-circle" src="/Imagenes/jackKirby.jpg" height="140" width="140" alt="">
+          <h2>Joe Simon</h2>
+          <p>With his partner, artist Jack Kirby, he co-created Captain America, one of comics' most enduring
+            superheroes, and the team worked extensively on such features at DC Comics as the 1940s Sandman and Sandy
+            the Golden Boy, and co-created the Newsboy Legion, the Boy Commandos, and Manhunter. Simon and Kirby
+            creations for other comics publishers include Boys' Ranch, Fighting American and the Fly. In the late 1940s,
+            the duo created the field of romance comics, and were among the earliest pioneers of horror comics. </p>
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      <!-- START THE FEATURETTES -->
+      <!-- Segmentos -->
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-lg-5">
+          <h2 class="featurette-heading">Captain America. <span class="text-muted">The first Avenger.</span>
+          </h2>
+          <p class="lead">The character wears a costume bearing an American flag motif, and he utilizes a nearly
+            indestructible shield which he throws as a projectile. Captain America is the alter ego of Steve Rogers, a
+            frail young man enhanced to the peak of human perfection by an experimental serum to aid the United States
+            government's efforts in World War II. Near the end of the war, he was trapped in ice and survived in
+            suspended animation until he was revived in the present day.</p>
+        </div>
+        <div class="first-image align-self-center col-lg-7">
+          <img class="rounded img-fluid w-100" src="/Imagenes/capEndgame.gif" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-lg-5 order-md-2">
+          <h2 class="featurette-heading">Man of respect. <span class="text-muted">The Face of America.</span>
+          </h2>
+          <p class="lead">Captain America often struggles to maintain his ideals as a man out of his time with its
+            modern realities, he remains a highly respected figure in his community which includes becoming the
+            long-time leader of the Avengers.</p>
+        </div>
+        <div class="first-image align-self-center col-lg-7 order-md-1">
+          <img class="rounded img-fluid w-100" src="/Imagenes/captGif2.gif" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-lg-5">
+          <h2 class="featurette-heading">"Avengers, <span class="text-muted">Assemble!".</span>
+          </h2>
+          <p class="lead">Captain America is ranked sixth on IGN's "Top 100 Comic Book Heroes of All Time" in 2011,
+            second in their list of "The Top 50 Avengers" in 2012, and second in their "Top 25 best Marvel superheroes"
+            list in 2014..</p>
+        </div>
+        <div class="first-image align-self-center col-lg-7">
+          <img class="rounded img-fluid w-100" src="/Imagenes/captGif3.gif" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container-fluid">
+      <div class="row footer-content align-content-center">
+        <p class="col text-white"> © 2017-2019 Company, Inc. · Privacy · Terms </p>
+        <h5 class="col text-primary">Back to Top</h5>
+      </div>
+    </footer>
+  </main>
+
+
+  <!-- Scripts -->
+  <script>
+    var loadingScreen = document.getElementById('contenedor_carga');
+    setTimeout(function () {
+      loadingScreen.style.visibility = "hidden";
+      loadingScreen.style.opacity = '0';
+    }, 1400);
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

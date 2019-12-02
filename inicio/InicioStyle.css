@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+}
+body {
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, .5);
+    background-color: black !important;
+    box-shadow: inset 0px 0px 200px black;
+}
+
+/* LOADING SCREEN */
+
+#contenedor_carga {
+    background-color: rgb(24, 24, 24) !important;
+    box-shadow: inset 0px 0px 200px black;
+    height: 100% !important;
+    width: 100% !important;
+    position: fixed !important;
+    z-index: 10000;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  .guante {
+    margin-top: 15rem;
+  }
+  
+  .loading-animation {
+    margin-left: 20px;
+  }
+  
+  /* END LOADING SCREEN */
+
+#intro-marvel {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(8px);
+}
+
+.welcome-block {
+    position: fixed;
+    background-color: rgba(51, 51, 51, 0.8)!important;
+    margin-top: 10em;
+    box-shadow: inset 0 0 5rem rgb(0, 0, 0);
+    box-shadow: 0px 10px 10px -6px black;
+}
+
+.welcome-msg {
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.welcome-msg, .description-msg {
+    color: rgb(248, 250, 241);
+}
+
+.description-msg {
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.panel-funcional {
+    display: block !important   ;
+}
+
+.enter-btn {
+    margin-bottom: 2rem;
+}
+
+.entrada-nombre-dad {
+    margin-bottom: 2rem;
+}
+
+.entrada-nombre-son {
+    background-color: rgba(173, 167, 167, 0.3) !important;
+    color: white !important;
+}
+
